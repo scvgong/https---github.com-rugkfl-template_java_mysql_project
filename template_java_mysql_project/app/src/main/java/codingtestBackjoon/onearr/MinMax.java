@@ -25,6 +25,7 @@ public class MinMax {
             }
         }
         System.out.printf("%d %d",min, max);
+        sc.close();
     }
 }
 

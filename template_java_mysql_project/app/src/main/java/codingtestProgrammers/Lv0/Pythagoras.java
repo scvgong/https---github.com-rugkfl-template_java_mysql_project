@@ -10,6 +10,7 @@ public class Pythagoras {
         int b_square = (int)Math.pow(c,2) - (int)Math.pow(a,2);
 
         System.out.println(b_square);
+        sc.close();
     }    
 }
 

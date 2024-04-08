@@ -25,6 +25,7 @@ public class MaxNumber {
 
         System.out.println(max);
         System.out.println(num);
+        sc.close();
     }
 }
 

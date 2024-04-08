@@ -23,6 +23,7 @@ public class CountArray {
         }
 
         System.out.println(count);
+        sc.close();
 
     }
 }

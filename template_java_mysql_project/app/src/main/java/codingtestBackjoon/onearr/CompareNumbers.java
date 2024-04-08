@@ -21,7 +21,7 @@ public class CompareNumbers {
                 System.out.print(arr[j] + " ");
             }
         }
-
+        sc.close();
     }
 }
 

@@ -15,6 +15,7 @@ public class AgeCal {
         }
 
         System.out.println(answer);
+        sc.close();
     }
 }
 
