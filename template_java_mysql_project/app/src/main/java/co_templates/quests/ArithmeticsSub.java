@@ -1,7 +1,5 @@
 package co_templates.quests;
 
-import java.util.ArrayList;
-import java.util.Scanner;
 
 public class ArithmeticsSub {
 
@@ -10,7 +8,6 @@ public class ArithmeticsSub {
         int result = 0;
 
         try {
-            System.out.print("두 정수의 합 : ");
             result = inFirst + inSecond;
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -23,7 +20,6 @@ public class ArithmeticsSub {
         int result = 0;
 
         try {
-            System.out.print("두 정수의 합 : ");
             result = inFirst - inSecond;
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -32,17 +28,41 @@ public class ArithmeticsSub {
         return result;
     }
 
-    // public int multiplication(){
+    public int multiplication(int inFirst, int inSecond){
+        int result = 0;
 
-    // }
+        try {
+            result = inFirst * inSecond;
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
 
-    // public int division(){
+        return result;
+    }
 
-    // }
+    public int division(int inFirst, int inSecond){
+        int result = 0;
 
-    // public int remain(){
+        try {
+            result = inFirst / inSecond;
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
 
-    // }
+        return result;
+    }
+
+    public int remain(int inFirst, int inSecond){
+        int result = 0;
+
+        try {
+            result = inFirst % inSecond;
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+
+        return result;
+    }
 
     
 }
