@@ -9,9 +9,8 @@ public class AdditionsSub {
         int intFirst = scanner.nextInt();
         System.out.print("intSecond : ");
         int intSecond = scanner.nextInt();
-        int add = intFirst + intSecond;
 
-        System.out.println("두 정수의 합 = " + add);
+        System.out.println("intFirst : " + intFirst + " intSecond : " + intSecond);
 
         int result = intFirst + intSecond;
 
