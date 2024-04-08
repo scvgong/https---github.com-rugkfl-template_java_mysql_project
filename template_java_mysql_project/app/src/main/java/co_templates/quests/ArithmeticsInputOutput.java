@@ -25,7 +25,6 @@ public class ArithmeticsInputOutput {
 
     public void outputSource(int[] numbers){
         ArithmeticsSub arsub = new ArithmeticsSub();
-        // int[] getNumber = 
         System.out.println("두 정수의 합 : " + arsub.add(numbers[0],numbers[1]));
         System.out.println("두 정수의 뺄셈 : " + arsub.subtraction(numbers[0],numbers[1]));
         System.out.println("두 정수의 곱셈 : " + arsub.multiplication(numbers[0],numbers[1]));
