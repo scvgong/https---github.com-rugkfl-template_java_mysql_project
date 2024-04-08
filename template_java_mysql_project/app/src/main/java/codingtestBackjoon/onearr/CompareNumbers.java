@@ -1,4 +1,4 @@
-package codingtestBackjoon;
+package codingtestBackjoon.onearr;
 
 import java.util.Scanner;
 
