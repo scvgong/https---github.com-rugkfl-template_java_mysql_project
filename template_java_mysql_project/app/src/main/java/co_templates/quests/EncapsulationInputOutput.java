@@ -2,7 +2,7 @@ package co_templates.quests;
 
 import java.util.Scanner;
 
-public class ArithmeticsInputOutput {
+public class EncapsulationInputOutput {
  
     public int[] inputNumber(){
         Scanner sc = new Scanner(System.in);
@@ -24,12 +24,16 @@ public class ArithmeticsInputOutput {
     }
 
     public void outputSource(int[] numbers){
-        ArithmeticsSub arsub = new ArithmeticsSub();
-        System.out.println("두 정수의 합 : " + arsub.add(numbers[0],numbers[1]));
-        System.out.println("두 정수의 뺄셈 : " + arsub.subtraction(numbers[0],numbers[1]));
-        System.out.println("두 정수의 곱셈 : " + arsub.multiplication(numbers[0],numbers[1]));
-        System.out.println("두 정수의 나눗셈 : " + arsub.division(numbers[0],numbers[1]));
-        System.out.println("두 정수의 나머지 값 : " + arsub.remain(numbers[0],numbers[1]));
+        EncapsulationSub ensub = new EncapsulationSub();
+        
+        int divisionResult = ensub.division(numbers[0], numbers[1]);
+        ensub.setResult(divisionResult);
+        
+        System.out.println("두 정수의 나눗셈 : " + ensub.getResult());
+
+        int remainResult = ensub.remain(numbers[0], numbers[1]);
+        ensub.setResult(remainResult);
+        System.out.println("두 정수의 나머지 값 : " + ensub.getResult());
     }
 
     
