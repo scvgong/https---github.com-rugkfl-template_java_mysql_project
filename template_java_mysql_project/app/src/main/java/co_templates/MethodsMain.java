@@ -6,7 +6,6 @@ public class MethodsMain {
         // sub.methodsSub();
         // sub.methodsSubWithParams("myeongyun",3);
         int result = sub.methodsSubWithParamsReturn(5, 6);
-        System.out.println(result);
         return ;
     }
 }
